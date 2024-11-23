@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Obrazy\gra-karciana.png" />
+    <None Remove="Obrazy\gra-komputerowa.png" />
+    <None Remove="Obrazy\gra-planszowa.png" />
+    <None Remove="Obrazy\puzzle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Obrazy\gra-karciana.png" />
+    <Resource Include="Obrazy\gra-komputerowa.png" />
+    <Resource Include="Obrazy\gra-planszowa.png" />
+    <Resource Include="Obrazy\puzzle.png" />
+  </ItemGroup>
+
+</Project>
